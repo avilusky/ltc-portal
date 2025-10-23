@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>המודל החדש - פורטל ביטוח סיעודי</title>
+    <meta name="description" content="מטריצת המוצר החדש, תגמולים ומבנה פרמיות ברפורמת ביטוח הסיעוד">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="../../assets/css/main.css">
+    
+    <!-- Chart.js for visualizations -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Page Hero -->
+        <section class="page-hero">
+            <div class="container">
+                <!-- Breadcrumb -->
+                <nav class="breadcrumb" aria-label="מיקום בדף">
+                    <ol class="breadcrumb-list">
+                        <li class="breadcrumb-item"><a href="/ltc-portal/">ראשי</a></li>
+                        <li class="breadcrumb-item"><a href="/ltc-portal/pages/reform/">הרפורמה</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">המודל החדש</li>
+                    </ol>
+                </nav>
+                
+                <h1 class="page-title">מטריצת המוצר החדש</h1>
+                <p class="page-description">
+                    הצגה מקיפה של המודל החדש לביטוח סיעודי - מבנה תגמולים, פרמיות, ותנאי כיסוי משופרים
+                </p>
+            </div>
+        </section>
+        
+        <!-- Matrix Grid -->
+        <section class="matrix-section">
+            <div class="container">
+                <h2 class="section-title">רכיבי המודל החדש</h2>
+                
+                <div class="matrix-grid">
+                    <!-- Cell 1: מבנה הכיסוי -->
+                    <div class="matrix-cell" data-category="coverage">
+                        <div class="cell-badge">חדש</div>
+                        <div class="cell-icon">🛡️</div>
+                        <h3 class="cell-title">מבנה הכיסוי המשופר</h3>
+                        <div class="cell-description">כיסוי מורחב עם הגדרות ADL מעודכנות</div>
+                        <ul class="cell-features">
+                            <li>3 מתוך 6 פעולות ADL (במקום 2/6)</li>
+                            <li>כיסוי לדמנציה קלה-בינונית</li>
+                            <li>הכרה במצב קוגניטיבי</li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Cell 2: תגמולים -->
+                    <div class="matrix-cell" data-category="benefits">
+                        <div class="cell-icon">💰</div>
+                        <h3 class="cell-title">תגמולי ביטוח</h3>
+                        <div class="cell-description">תגמולים מדורגים לפי חומרה</div>
+                        <ul class="cell-features">
+                            <li>בסיסי: ₪3,000-6,000 לחודש</li>
+                            <li>מורחב: ₪6,000-10,000 לחודש</li>
+                            <li>מקסימלי: עד ₪15,000 לחודש</li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Cell 3: פרמיות -->
+                    <div class="matrix-cell" data-category="premiums">
+                        <div class="cell-icon">📊</div>
+                        <h3 class="cell-title">מבנה פרמיות חדש</h3>
+                        <div class="cell-description">פרמיה מדורגת לפי גיל</div>
+                        <ul class="cell-features">
+                            <li>גיל 20-30: ₪50-120</li>
+                            <li>גיל 31-50: ₪150-350</li>
+                            <li>גיל 51+: ₪400-800</li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Cell 4: תקופת המתנה -->
+                    <div class="matrix-cell" data-category="waiting">
+                        <div class="cell-icon">⏱️</div>
+                        <h3 class="cell-title">תקופות המתנה</h3>
+                        <div class="cell-description">תקופות גמישות יותר</div>
+                        <ul class="cell-features">
+                            <li>60 ימים - פרמיה מוזלת</li>
+                            <li>30 ימים - פרמיה סטנדרטית</li>
+                            <li>0 ימים - פרמיה מוגדלת</li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Cell 5: עמלות -->
+                    <div class="matrix-cell" data-category="commissions">
+                        <div class="cell-badge">רגולציה</div>
+                        <div class="cell-icon">💼</div>
+                        <h3 class="cell-title">מבנה עמלות חדש</h3>
+                        <div class="cell-description">עמלות מפוקחות וגמישות</div>
+                        <ul class="cell-features">
+                            <li>עמלת היקף: 20% שנה ראשונה</li>
+                            <li>עמלת שימור: 5% שנתי</li>
+                            <li>תקרה מקסימלית: 25%</li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Cell 6: השוואה בינלאומית -->
+                    <div class="matrix-cell" data-category="international">
+                        <div class="cell-icon">🌍</div>
+                        <h3 class="cell-title">השוואה בינלאומית</h3>
+                        <div class="cell-description">מודל מבוסס Best Practice</div>
+                        <ul class="cell-features">
+                            <li>מבוסס על המודל הגרמני</li>
+                            <li>שילוב עם ביטוח לאומי</li>
+                            <li>מימון משולב ציבורי-פרטי</li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Cell 7: המשכיות -->
+                    <div class="matrix-cell" data-category="continuity">
+                        <div class="cell-badge">חשוב</div>
+                        <div class="cell-icon">🔄</div>
+                        <h3 class="cell-title">המשכיות הכיסוי</h3>
+                        <div class="cell-description">הבטחת המשכיות למבוטחים קיימים</div>
+                        <ul class="cell-features">
+                            <li>שמירת זכויות צבורות</li>
+                            <li>אפשרות מעבר מרצון</li>
+                            <li>תקופת מעבר של 24 חודשים</li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Cell 8: היבטים משפטיים -->
+                    <div class="matrix-cell" data-category="legal">
+                        <div class="cell-icon">⚖️</div>
+                        <h3 class="cell-title">היבטים משפטיים</h3>
+                        <div class="cell-description">חקיקה ורגולציה מעודכנת</div>
+                        <ul class="cell-features">
+                            <li>תיקון לחוק הפיקוח</li>
+                            <li>תקנות מעודכנות</li>
+                            <li>הגנות צרכניות מוגברות</li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Cell 9: חדשנות -->
+                    <div class="matrix-cell" data-category="innovation">
+                        <div class="cell-badge">חדשנות</div>
+                        <div class="cell-icon">💡</div>
+                        <h3 class="cell-title">חידושים טכנולוגיים</h3>
+                        <div class="cell-description">שילוב טכנולוגיות מתקדמות</div>
+                        <ul class="cell-features">
+                            <li>מערכת ניהול דיגיטלית</li>
+                            <li>AI לניבוי סיכונים</li>
+                            <li>טלמדיסין למעקב</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Premium Calculator -->
+        <section class="calculator-section" id="premiums">
+            <div class="container">
+                <h2 class="section-title">מחשבון השוואת פרמיות</h2>
+                
+                <div class="calculator-container">
+                    <div class="calculator-controls">
+                        <div class="control-group">
+                            <label for="ageInput">גיל כניסה לביטוח</label>
+                            <div class="range-container">
+                                <input type="range" id="ageInput" min="20" max="70" value="40">
+                                <span id="ageDisplay">40</span>
+                            </div>
+                        </div>
+                        
+                        <div class="control-group">
+                            <label>מין</label>
+                            <div class="button-group">
+                                <button id="maleBtn" class="gender-btn active">גבר</button>
+                                <button id="femaleBtn" class="gender-btn">אישה</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="charts-container">
+                        <div class="chart-box">
+                            <h3>פרמיה חודשית לפי גיל</h3>
+                            <canvas id="monthlyChart"></canvas>
+                        </div>
+                        
+                        <div class="chart-box">
+                            <h3>סך תשלומים מצטבר עד גיל 85</h3>
+                            <canvas id="cumulativeChart"></canvas>
+                        </div>
+                    </div>
+                    
+                    <div class="comparison-table">
+                        <h3>השוואת מודלים</h3>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>מודל</th>
+                                    <th>פרמיה התחלתית</th>
+                                    <th>סך תשלומים עד גיל 85</th>
+                                    <th>יתרונות</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>מודל קבוע (ישן)</td>
+                                    <td id="fixedModelInitial">₪280</td>
+                                    <td id="fixedModelTotal">₪235,200</td>
+                                    <td>יציבות בתשלומים</td>
+                                </tr>
+                                <tr class="highlight">
+                                    <td>מודל מדורג (חדש)</td>
+                                    <td id="newModelInitial">₪150</td>
+                                    <td id="newModelTotal">₪198,000</td>
+                                    <td>התאמה ליכולת תשלום</td>
+                                </tr>
+                                <tr>
+                                    <td>קופות חולים</td>
+                                    <td id="kupotInitial">₪120</td>
+                                    <td id="kupotTotal">₪165,000</td>
+                                    <td>כיסוי בסיסי בלבד</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Benefits Section -->
+        <section class="benefits-section" id="benefits">
+            <div class="container">
+                <h2 class="section-title">מבנה התגמולים החדש</h2>
+                
+                <div class="benefits-grid">
+                    <div class="benefit-card">
+                        <div class="benefit-level">רמה בסיסית</div>
+                        <div class="benefit-amount">₪3,000-6,000</div>
+                        <div class="benefit-conditions">
+                            <h4>תנאי זכאות:</h4>
+                            <ul>
+                                <li>3 פעולות ADL</li>
+                                <li>או ירידה קוגניטיבית קלה</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="benefit-card featured">
+                        <div class="benefit-level">רמה מורחבת</div>
+                        <div class="benefit-amount">₪6,000-10,000</div>
+                        <div class="benefit-conditions">
+                            <h4>תנאי זכאות:</h4>
+                            <ul>
+                                <li>4 פעולות ADL</li>
+                                <li>או דמנציה בינונית</li>
+                                <li>או צורך בהשגחה 24/7</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="benefit-card">
+                        <div class="benefit-level">רמה מקסימלית</div>
+                        <div class="benefit-amount">₪10,000-15,000</div>
+                        <div class="benefit-conditions">
+                            <h4>תנאי זכאות:</h4>
+                            <ul>
+                                <li>5-6 פעולות ADL</li>
+                                <li>או דמנציה חמורה</li>
+                                <li>או אשפוז סיעודי</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- JavaScript for Calculator -->
+    <script src="../../assets/js/main.js"></script>
+    <script src="premium-calculator.js"></script>
+    
+    <!-- Additional Styles -->
+    <style>
+    /* Page specific styles */
+    .breadcrumb-list {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .breadcrumb-item::after {
+        content: "/";
+        margin-right: 1rem;
+        color: #9ca3af;
+    }
+    
+    .breadcrumb-item:last-child::after {
+        display: none;
+    }
+    
+    .page-hero {
+        background: linear-gradient(135deg, #eff6ff, #dbeafe);
+        padding: 3rem 0;
+        margin-bottom: 3rem;
+    }
+    
+    .page-title {
+        font-size: 2.5rem;
+        color: #1e40af;
+        margin-bottom: 1rem;
+    }
+    
+    .page-description {
+        font-size: 1.125rem;
+        color: #6b7280;
+        max-width: 800px;
+    }
+    
+    .matrix-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+        margin: 3rem 0;
+    }
+    
+    .matrix-cell {
+        background: white;
+        border-radius: 1rem;
+        padding: 2rem;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+        position: relative;
+        cursor: pointer;
+    }
+    
+    .matrix-cell:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+    }
+    
+    .cell-badge {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        background: linear-gradient(135deg, #3b82f6, #0ea5e9);
+        color: white;
+        padding: 0.25rem 0.75rem;
+        border-radius: 2rem;
+        font-size: 0.75rem;
+        font-weight: 600;
+    }
+    
+    .cell-icon {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+    
+    .cell-title {
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: #1f2937;
+        margin-bottom: 0.5rem;
+    }
+    
+    .cell-description {
+        color: #6b7280;
+        margin-bottom: 1rem;
+    }
+    
+    .cell-features {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .cell-features li {
+        padding: 0.5rem 0;
+        border-top: 1px solid #e5e7eb;
+        color: #4b5563;
+        font-size: 0.9rem;
+    }
+    
+    .cell-features li:first-child {
+        border-top: none;
+    }
+    
+    .calculator-section {
+        background: #f9fafb;
+        padding: 4rem 0;
+    }
+    
+    .calculator-container {
+        background: white;
+        border-radius: 1rem;
+        padding: 2rem;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    .calculator-controls {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .control-group label {
+        display: block;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+        color: #374151;
+    }
+    
+    .range-container {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+    
+    #ageInput {
+        flex: 1;
+    }
+    
+    #ageDisplay {
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: #2563eb;
+        min-width: 3rem;
+        text-align: center;
+    }
+    
+    .button-group {
+        display: flex;
+        gap: 0.5rem;
+    }
+    
+    .gender-btn {
+        flex: 1;
+        padding: 0.75rem;
+        border: 2px solid #e5e7eb;
+        background: white;
+        border-radius: 0.5rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.2s;
+    }
+    
+    .gender-btn:hover {
+        border-color: #3b82f6;
+    }
+    
+    .gender-btn.active {
+        background: #2563eb;
+        color: white;
+        border-color: #2563eb;
+    }
+    
+    .charts-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        gap: 2rem;
+        margin: 2rem 0;
+    }
+    
+    .chart-box {
+        background: white;
+        padding: 1.5rem;
+        border-radius: 0.5rem;
+        border: 1px solid #e5e7eb;
+    }
+    
+    .chart-box h3 {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+        color: #4b5563;
+    }
+    
+    .chart-box canvas {
+        height: 250px !important;
+    }
+    
+    .comparison-table {
+        margin-top: 2rem;
+    }
+    
+    .comparison-table h3 {
+        font-size: 1.25rem;
+        margin-bottom: 1rem;
+    }
+    
+    .comparison-table table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    
+    .comparison-table th,
+    .comparison-table td {
+        padding: 1rem;
+        text-align: right;
+        border-bottom: 1px solid #e5e7eb;
+    }
+    
+    .comparison-table th {
+        background: #f9fafb;
+        font-weight: 600;
+        color: #374151;
+    }
+    
+    .comparison-table tr.highlight {
+        background: #eff6ff;
+    }
+    
+    .comparison-table tr.highlight td {
+        font-weight: 600;
+    }
+    
+    .benefits-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 2rem;
+        margin: 2rem 0;
+    }
+    
+    .benefit-card {
+        background: white;
+        border-radius: 1rem;
+        padding: 2rem;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+    
+    .benefit-card.featured {
+        background: linear-gradient(135deg, #eff6ff, #dbeafe);
+        transform: scale(1.05);
+    }
+    
+    .benefit-level {
+        font-size: 1.125rem;
+        font-weight: 600;
+        color: #6b7280;
+        margin-bottom: 0.5rem;
+    }
+    
+    .benefit-amount {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #2563eb;
+        margin-bottom: 1.5rem;
+    }
+    
+    .benefit-conditions h4 {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+        color: #374151;
+    }
+    
+    .benefit-conditions ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .benefit-conditions li {
+        padding: 0.5rem 0;
+        color: #6b7280;
+        font-size: 0.9rem;
+    }
+    
+    .benefit-conditions li::before {
+        content: "✓ ";
+        color: #10b981;
+        font-weight: bold;
+        margin-left: 0.5rem;
+    }
+    </style>
+</body>
+</html>

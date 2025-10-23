@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>פורטל ביטוח סיעודי - רשות שוק ההון</title>
+    <meta name="description" content="הפורטל המרכזי למידע על רפורמת ביטוח הסיעוד בישראל">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- CSS Files -->
+    <!-- Core -->
+    <link rel="stylesheet" href="assets/css/utilities/variables.css">
+    <link rel="stylesheet" href="assets/css/utilities/reset.css">
+    <link rel="stylesheet" href="assets/css/utilities/typography.css">
+    <link rel="stylesheet" href="assets/css/utilities/helpers.css">
+    
+    <!-- Layout -->
+    <link rel="stylesheet" href="assets/css/layouts/header.css">
+    <link rel="stylesheet" href="assets/css/layouts/footer.css">
+    <link rel="stylesheet" href="assets/css/layouts/grid.css">
+    
+    <!-- Components -->
+    <link rel="stylesheet" href="assets/css/components/buttons.css">
+    <link rel="stylesheet" href="assets/css/components/cards.css">
+    <link rel="stylesheet" href="assets/css/components/forms.css">
+    <link rel="stylesheet" href="assets/css/components/modals.css">
+    <link rel="stylesheet" href="assets/css/components/navigation.css">
+    
+    <!-- Pages -->
+    <link rel="stylesheet" href="assets/css/pages/home.css">
+    
+    <!-- Main -->
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="main-header" class="site-header">
+        <div class="header-container">
+            <!-- Logo Section -->
+            <div class="header-logo">
+                <a href="/" class="logo-link">
+                    <img src="assets/images/logos/logo.svg" alt="רשות שוק ההון" class="logo-img">
+                    <div class="logo-text">
+                        <span class="logo-title">רשות שוק ההון</span>
+                        <span class="logo-subtitle">ביטוח וחיסכון</span>
+                    </div>
+                </a>
+            </div>
+            
+            <!-- Main Navigation -->
+            <nav class="main-nav" aria-label="תפריט ראשי">
+                <ul class="nav-list">
+                    <li class="nav-item active">
+                        <a href="/" class="nav-link">ראשי</a>
+                    </li>
+                    <li class="nav-item has-dropdown">
+                        <a href="/pages/market-status.html" class="nav-link">
+                            מצב השוק
+                            <span class="dropdown-arrow">▼</span>
+                        </a>
+                        <div class="mega-menu">
+                            <div class="mega-menu-content">
+                                <div class="mega-menu-column">
+                                    <h3>נתונים וסטטיסטיקה</h3>
+                                    <ul>
+                                        <li><a href="/pages/market-status/statistics.html">נתונים סטטיסטיים</a></li>
+                                        <li><a href="/pages/market-status/trends.html">מגמות ותחזיות</a></li>
+                                        <li><a href="/pages/market-status/coverage.html">כיסוי ביטוחי</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-menu-column">
+                                    <h3>בעיות וכשלים</h3>
+                                    <ul>
+                                        <li><a href="/pages/market-status/problems.html">בעיות מרכזיות</a></li>
+                                        <li><a href="/pages/market-status/failures.html">כשלי שוק</a></li>
+                                        <li><a href="/pages/market-status/gaps.html">פערי כיסוי</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-menu-column">
+                                    <h3>השוואות</h3>
+                                    <ul>
+                                        <li><a href="/pages/market-status/international.html">השוואה בינלאומית</a></li>
+                                        <li><a href="/pages/market-status/products.html">השוואת מוצרים</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item has-dropdown">
+                        <a href="/pages/reform.html" class="nav-link">
+                            הרפורמה
+                            <span class="dropdown-arrow">▼</span>
+                        </a>
+                        <div class="mega-menu">
+                            <div class="mega-menu-content">
+                                <div class="mega-menu-column">
+                                    <h3>המודל החדש</h3>
+                                    <ul>
+                                        <li><a href="/pages/reform/new-model.html">עקרונות המודל</a></li>
+                                        <li><a href="/pages/reform/structure.html">מבנה המוצר</a></li>
+                                        <li><a href="/pages/reform/coverage.html">כיסויים ותנאים</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-menu-column">
+                                    <h3>היבטים מקצועיים</h3>
+                                    <ul>
+                                        <li><a href="/pages/reform/actuarial.html">המודל האקטוארי</a></li>
+                                        <li><a href="/pages/reform/legal.html">היבטים משפטיים</a></li>
+                                        <li><a href="/pages/reform/commissions.html">עמלות וסוכנים</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-menu-column">
+                                    <h3>יישום</h3>
+                                    <ul>
+                                        <li><a href="/pages/reform/timeline.html">לוח זמנים</a></li>
+                                        <li><a href="/pages/reform/impact.html">השפעות צפויות</a></li>
+                                        <li><a href="/pages/reform/transition.html">תקופת מעבר</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item has-dropdown">
+                        <a href="/pages/decision-trees.html" class="nav-link">
+                            עצי החלטות
+                            <span class="dropdown-arrow">▼</span>
+                        </a>
+                        <div class="mega-menu">
+                            <div class="mega-menu-content">
+                                <div class="mega-menu-column">
+                                    <h3>עצי החלטות</h3>
+                                    <ul>
+                                        <li><a href="/pages/trees/consumer.html">למבוטח</a></li>
+                                        <li><a href="/pages/trees/regulator.html">לרגולטור</a></li>
+                                        <li><a href="/pages/trees/insurer.html">לחברות ביטוח</a></li>
+                                        <li><a href="/pages/trees/simulator.html">סימולטור</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item has-dropdown">
+                        <a href="/pages/tools.html" class="nav-link">
+                            כלים
+                            <span class="dropdown-arrow">▼</span>
+                        </a>
+                        <div class="mega-menu">
+                            <div class="mega-menu-content">
+                                <div class="mega-menu-column">
+                                    <h3>מחשבונים</h3>
+                                    <ul>
+                                        <li><a href="/pages/tools/premium-calc.html">מחשבון פרמיה</a></li>
+                                        <li><a href="/pages/tools/tax-calc.html">מחשבון החזר מס</a></li>
+                                        <li><a href="/pages/tools/comparison.html">השוואת מוצרים</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-menu-column">
+                                    <h3>כלי ניתוח</h3>
+                                    <ul>
+                                        <li><a href="/pages/tools/risk-assessment.html">הערכת סיכונים</a></li>
+                                        <li><a href="/pages/tools/scenarios.html">סימולציית תרחישים</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item has-dropdown">
+                        <a href="/pages/knowledge.html" class="nav-link">
+                            מרכז ידע
+                            <span class="dropdown-arrow">▼</span>
+                        </a>
+                        <div class="mega-menu">
+                            <div class="mega-menu-content">
+                                <div class="mega-menu-column">
+                                    <h3>מסמכים</h3>
+                                    <ul>
+                                        <li><a href="/pages/knowledge/documents.html">מסמכי מדיניות</a></li>
+                                        <li><a href="/pages/knowledge/legislation.html">חקיקה ורגולציה</a></li>
+                                        <li><a href="/pages/knowledge/research.html">מחקרים</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-menu-column">
+                                    <h3>מידע</h3>
+                                    <ul>
+                                        <li><a href="/pages/knowledge/faq.html">שאלות נפוצות</a></li>
+                                        <li><a href="/pages/knowledge/glossary.html">מילון מונחים</a></li>
+                                        <li><a href="/pages/knowledge/history.html">היסטוריה</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/pages/about.html" class="nav-link">אודות</a>
+                    </li>
+                </ul>
+            </nav>
+            
+            <!-- Header Actions -->
+            <div class="header-actions">
+                <button class="search-btn" aria-label="חיפוש">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                        <path d="M21 21L15 15M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z" 
+                              stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </button>
+                <button class="mobile-menu-btn" aria-label="תפריט">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        פורטל ביטוח סיעודי
+                        <span class="hero-subtitle">הרפורמה המקיפה לביטוח סיעודי בישראל</span>
+                    </h1>
+                    <p class="hero-description">
+                        מרכז המידע המקיף לרפורמת ביטוח הסיעוד - נתונים, כלים וניתוחים מקצועיים
+                    </p>
+                    <div class="hero-actions">
+                        <a href="/pages/reform.html" class="btn btn-primary btn-lg">
+                            למידע על הרפורמה
+                        </a>
+                        <a href="/pages/tools.html" class="btn btn-secondary btn-lg">
+                            לכלים ומחשבונים
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-card">
+                        <div class="stat-number">4.7M</div>
+                        <div class="stat-label">מבוטחים</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">2025</div>
+                        <div class="stat-label">יישום הרפורמה</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">₪6,000</div>
+                        <div class="stat-label">תגמול חודשי</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quick Access Cards -->
+        <section class="quick-access">
+            <div class="container">
+                <h2 class="section-title">גישה מהירה</h2>
+                <div class="cards-grid">
+                    <a href="/pages/market-status.html" class="access-card">
+                        <div class="card-icon">📊</div>
+                        <h3>מצב השוק</h3>
+                        <p>נתונים עדכניים וניתוח מצב הביטוח הסיעודי בישראל</p>
+                    </a>
+                    <a href="/pages/reform/new-model.html" class="access-card">
+                        <div class="card-icon">🎯</div>
+                        <h3>המודל החדש</h3>
+                        <p>פרטי הרפורמה המוצעת והשינויים המרכזיים</p>
+                    </a>
+                    <a href="/pages/trees/consumer.html" class="access-card">
+                        <div class="card-icon">🌳</div>
+                        <h3>עץ החלטות</h3>
+                        <p>כלי אינטראקטיבי לקבלת החלטות מושכלת</p>
+                    </a>
+                    <a href="/pages/tools/premium-calc.html" class="access-card">
+                        <div class="card-icon">🧮</div>
+                        <h3>מחשבון פרמיה</h3>
+                        <p>חישוב פרמיה צפויה לפי הרפורמה החדשה</p>
+                    </a>
+                    <a href="/pages/knowledge/faq.html" class="access-card">
+                        <div class="card-icon">❓</div>
+                        <h3>שאלות נפוצות</h3>
+                        <p>תשובות לשאלות הנפוצות על הרפורמה</p>
+                    </a>
+                    <a href="/pages/knowledge/documents.html" class="access-card">
+                        <div class="card-icon">📚</div>
+                        <h3>מסמכים</h3>
+                        <p>מסמכי מדיניות, חקיקה ומחקרים</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- News & Updates -->
+        <section class="news-section">
+            <div class="container">
+                <h2 class="section-title">עדכונים אחרונים</h2>
+                <div class="news-grid">
+                    <article class="news-card">
+                        <time class="news-date">15.01.2025</time>
+                        <h3>פרסום טיוטת התקנות החדשות</h3>
+                        <p>רשות שוק ההון פרסמה את טיוטת התקנות המלאה לרפורמה בביטוח הסיעודי</p>
+                        <a href="#" class="read-more">קרא עוד ←</a>
+                    </article>
+                    <article class="news-card">
+                        <time class="news-date">10.01.2025</time>
+                        <h3>עדכון לוח הזמנים ליישום</h3>
+                        <p>הוארכה תקופת ההערות לטיוטה עד סוף פברואר 2025</p>
+                        <a href="#" class="read-more">קרא עוד ←</a>
+                    </article>
+                    <article class="news-card">
+                        <time class="news-date">05.01.2025</time>
+                        <h3>פרסום נתוני Q4 2024</h3>
+                        <p>נתונים חדשים על מצב שוק ביטוח הסיעוד ברבעון האחרון</p>
+                        <a href="#" class="read-more">קרא עוד ←</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="main-footer" class="site-footer">
+        <div class="footer-container">
+            <div class="footer-top">
+                <div class="footer-column">
+                    <h4>על הפורטל</h4>
+                    <p>מרכז המידע המקיף לרפורמת ביטוח הסיעוד בישראל, מופעל על ידי רשות שוק ההון, ביטוח וחיסכון.</p>
+                </div>
+                <div class="footer-column">
+                    <h4>קישורים מהירים</h4>
+                    <ul>
+                        <li><a href="/pages/reform.html">הרפורמה המוצעת</a></li>
+                        <li><a href="/pages/tools.html">כלים ומחשבונים</a></li>
+                        <li><a href="/pages/knowledge/faq.html">שאלות נפוצות</a></li>
+                        <li><a href="/pages/contact.html">צור קשר</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>משאבים</h4>
+                    <ul>
+                        <li><a href="/pages/knowledge/documents.html">מסמכים</a></li>
+                        <li><a href="/pages/knowledge/research.html">מחקרים</a></li>
+                        <li><a href="/pages/knowledge/legislation.html">חקיקה</a></li>
+                        <li><a href="/pages/knowledge/glossary.html">מילון מונחים</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>צור קשר</h4>
+                    <p>רשות שוק ההון, ביטוח וחיסכון</p>
+                    <p>טלפון: 1-222-3334</p>
+                    <p>דוא"ל: info@mof.gov.il</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 רשות שוק ההון, ביטוח וחיסכון. כל הזכויות שמורות.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="assets/js/utils/constants.js"></script>
+    <script src="assets/js/utils/helpers.js"></script>
+    <script src="assets/js/components/navigation.js"></script>
+    <script src="assets/js/components/search.js"></script>
+    <script src="assets/js/pages/home.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
